@@ -33,7 +33,7 @@
 }
 
 .header{
-    background-color: powderblue;
+    background-color: rgb(161, 52, 194);
     position: absolute;
     display: flex;
     width: 100%;
@@ -41,3 +41,22 @@
     top: 0;
     left: 0;
 }
+
+aside{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(161, 52, 194);
+    width: 35%;
+    height: 90%;
+    padding: 72px 0px 0px;
+}
+
+section{
+    padding: 15px 30px 15px 30px;
+}
+
+.code{
+    text-shadow: #8b00bb 0 0 10px;
+}
+
