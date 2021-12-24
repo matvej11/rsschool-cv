@@ -3,11 +3,11 @@
     padding: 0;
     margin: 0;
 }
-.header{
+.header {
     justify-content: center;
 }
 
-.body-cv{
+.body-cv {
     margin: 0 auto;
     padding: 0;
     height: 100%;
@@ -20,7 +20,7 @@
     font-family: "Roboto" sans-serif;
 }
 
-.wrapper-cv{
+.wrapper-cv {
     background-color: white;
     position: relative;
     overflow: hidden;
@@ -32,7 +32,7 @@
     border-right: solid;
 }
 
-.header{
+.header {
     background-color: rgb(161, 52, 194);
     position: absolute;
     display: flex;
@@ -42,7 +42,7 @@
     left: 0;
 }
 
-aside{
+aside {
     float: right;
     display: flex;
     flex-direction: column;
@@ -52,11 +52,75 @@ aside{
     padding: 72px 0px 0px;
 }
 
-section{
+section {
     padding: 15px 30px 15px 30px;
 }
 
-.code{
+.code {
     text-shadow: #8b00bb 0 0 10px;
 }
 
+footer {
+    display: flex;
+    background-color: rgb(161, 52, 194);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5%;
+    width: 100%;
+    align-items: center;
+}
+
+footer a {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+@media (max-width: 1000px){
+    aside {
+        position: static;
+        height: auto;
+        width: 100%;
+        align-items: center;
+    }
+    main {
+        position: static;
+        height: auto;
+        width: 100%;
+        align-items: center;
+    }
+    footer {
+        position: static;
+        width: 100%;
+        height: 5%;
+    }
+    .wrapper-cv {
+        overflow: visible;
+        min-width: min-content;
+    }
+}
+
+@media(max-width: 480px) {
+    aside {
+        position: static;
+        height: auto;
+        width: 100%;
+        align-items: center;
+    }
+    main {
+        position: static;
+        height: auto;
+        width: 100%;
+        align-items: center;
+    }
+    footer {
+        position: static;
+        width: 100%;
+        height: 5%;
+    }
+    .wrapper-cv {
+        overflow: visible;
+        min-width: min-content;
+    }
+}
